@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['drone']
+
+roboflow:
+  workspace: habits-workspace-jltvs
+  project: drones_new-2ymwq
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/habits-workspace-jltvs/drones_new-2ymwq/dataset/1
